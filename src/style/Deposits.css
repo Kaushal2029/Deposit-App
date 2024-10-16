@@ -1,0 +1,252 @@
+.containerd{
+    /* border: 1px solid #ff0000; */
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    height: 400px;
+    top: 50px;
+    position: absolute;
+}
+
+.dark-theme .containerd {
+  background-color: #222;
+  color: #fff;
+}
+
+.collum{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.collum h1{
+    font-size:22px;
+    width: 100%;
+    margin-left: -600px;
+    margin-top: -48px;
+    text-align: center;
+    margin-right: -60px; 
+}
+
+.dark-theme .collum h1,
+.dark-theme .settings-title-text,
+.dark-theme .settings-subtitle,
+.dark-theme .settings-subtitle-text-s {
+  color: #fff;
+}
+
+.buttono {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 25px;
+    align-items: center;
+    width: 25px;
+    position: absolute;
+    gap: 126px; 
+    margin-right: 580px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.dark-theme .buttono {
+  background-color: #333;
+  
+}
+
+.buttono button{
+    border: none;
+    color: #000000;
+    background-color: none;  
+    transition: all .2s ease;  
+    &:hover{
+        background-color: darkgray;
+        border-radius: 5px;
+        color: #fff;
+        
+    }
+}
+
+.dark-theme .buttono button {
+  background-color: gray;
+  color: #fff;
+}
+
+.dark-theme .buttono button:hover {
+  background-color: #555;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 75px;
+    margin-right: 90px;
+    position: absolute;
+    justify-content: space-between;
+    transition: all .2s ease;
+   
+    
+  }
+  
+  .withdraw-button, .deposit-button, .summary-button{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 60px;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .dark-theme .withdraw-button,
+  .dark-theme .deposit-button,
+  .dark-theme .summary-button {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .dark-theme .withdraw-button:hover,
+  .dark-theme .deposit-button:hover,
+  .dark-theme .summary-button:hover {
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .containert {
+
+    padding: 15px;
+    font-family: sans-serif;
+    margin-top: 150px;
+    /* margin-left:0px; */
+  }
+  
+
+  
+ 
+  .input-group-st{
+    display: flex;
+    width: 100%;  
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .input-group-st > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .input-group-st label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .input-group-st input {
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+
+  #account-number {
+    cursor: not-allowed;
+    width: 100%;
+  }
+  
+  .dark-theme .input-group-st input,
+  .dark-theme #account-number {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+  }
+
+  .generate-button {
+    padding: 10px 20px;
+    background-color: lightslategray; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 58px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 150px;
+    &:hover{
+      background-color: gray;
+    }
+  }
+
+  .dark-theme .generate-button {
+    background-color: #4CAF50;
+  }
+
+
+
+.input-group-account{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dark-theme .modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dark-theme .modal-content button {
+  background-color: #4CAF50;
+}
+
+.modal-content button:hover {
+  background-color: #000000;
+}
+
+.dark-theme .modal-content button:hover {
+  background-color: #45a049;
+}
+
